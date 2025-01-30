@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22758" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="FermModel" representedClassName="FermModel" syncable="YES" codeGenerationType="class">
+        <attribute name="feRemainDays" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="feTime" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="feTimer" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="feWine" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RecipeModel" representedClassName="RecipeModel" syncable="YES" codeGenerationType="class">
+        <attribute name="reDays" optional="YES" attributeType="String"/>
+        <attribute name="reDescr" optional="YES" attributeType="String"/>
+        <attribute name="reGrape" optional="YES" attributeType="String"/>
+        <attribute name="reIng" optional="YES" attributeType="String"/>
+        <attribute name="reName" optional="YES" attributeType="String"/>
+        <attribute name="reTemp" optional="YES" attributeType="String"/>
+        <attribute name="reTMode" optional="YES" attributeType="String"/>
+    </entity>
+</model>
