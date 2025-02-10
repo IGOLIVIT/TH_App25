@@ -12,6 +12,7 @@ final class LibraryViewModel: ObservableObject {
     @Published var isDetail: Bool = false
     @Published var isDelete: Bool = false
     @Published var isSettings: Bool = false
+    @Published var isDeleteAll: Bool = false
     
     @Published var selectedLibrary: LibraryModel?
 
