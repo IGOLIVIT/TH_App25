@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		788381772D6666C200CEB9B5 /* Dlkoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788381762D6666C200CEB9B5 /* Dlkoi.swift */; };
+		788381792D6666CD00CEB9B5 /* Sawqu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 788381782D6666CD00CEB9B5 /* Sawqu.swift */; };
+		7883817B2D6666D600CEB9B5 /* Wqop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883817A2D6666D600CEB9B5 /* Wqop.swift */; };
+		7883817D2D66688000CEB9B5 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883817C2D66688000CEB9B5 /* U1.swift */; };
+		7883817F2D66688700CEB9B5 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7883817E2D66688700CEB9B5 /* Reviews.swift */; };
 		78EE10932D4BA1370003AB57 /* TH_App25App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE10922D4BA1370003AB57 /* TH_App25App.swift */; };
 		78EE10952D4BA1370003AB57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78EE10942D4BA1370003AB57 /* ContentView.swift */; };
 		78EE10972D4BA1380003AB57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EE10962D4BA1380003AB57 /* Assets.xcassets */; };
@@ -36,6 +41,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		788381762D6666C200CEB9B5 /* Dlkoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dlkoi.swift; sourceTree = "<group>"; };
+		788381782D6666CD00CEB9B5 /* Sawqu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sawqu.swift; sourceTree = "<group>"; };
+		7883817A2D6666D600CEB9B5 /* Wqop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wqop.swift; sourceTree = "<group>"; };
+		7883817C2D66688000CEB9B5 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		7883817E2D66688700CEB9B5 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		78EE108F2D4BA1370003AB57 /* TH_App25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TH_App25.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EE10922D4BA1370003AB57 /* TH_App25App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TH_App25App.swift; sourceTree = "<group>"; };
 		78EE10942D4BA1370003AB57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +161,9 @@
 				78EE10BF2D4BAA050003AB57 /* Array.swift */,
 				78EE10C12D4BAA0C0003AB57 /* CoreDataStack.swift */,
 				78EE10C32D4BAA130003AB57 /* DateConvert.swift */,
+				788381762D6666C200CEB9B5 /* Dlkoi.swift */,
+				788381782D6666CD00CEB9B5 /* Sawqu.swift */,
+				7883817A2D6666D600CEB9B5 /* Wqop.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -195,6 +208,8 @@
 		78EE10A92D4BA7610003AB57 /* obu */ = {
 			isa = PBXGroup;
 			children = (
+				7883817C2D66688000CEB9B5 /* U1.swift */,
+				7883817E2D66688700CEB9B5 /* Reviews.swift */,
 			);
 			path = obu;
 			sourceTree = "<group>";
@@ -343,16 +358,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EE10B72D4BA7D40003AB57 /* LibraryView.swift in Sources */,
+				788381772D6666C200CEB9B5 /* Dlkoi.swift in Sources */,
 				78EE10DE2D4BE4FB0003AB57 /* SettingsView.swift in Sources */,
 				78EE10C02D4BAA050003AB57 /* Array.swift in Sources */,
 				78EE10C62D4BAA180003AB57 /* TaBar.swift in Sources */,
 				78EE10C82D4BAA200003AB57 /* obr1.swift in Sources */,
 				78EE10DC2D4BD9530003AB57 /* AddFermentationView.swift in Sources */,
 				78EE10CE2D4BAA350003AB57 /* LoadingView.swift in Sources */,
+				7883817B2D6666D600CEB9B5 /* Wqop.swift in Sources */,
 				78EE10B32D4BA7C00003AB57 /* FermentationView.swift in Sources */,
 				78EE10B92D4BA7DB0003AB57 /* LibraryViewModel.swift in Sources */,
 				78EE10B12D4BA7B90003AB57 /* RecipesViewModel.swift in Sources */,
 				78EE10BE2D4BA9280003AB57 /* CoreModel.xcdatamodeld in Sources */,
+				7883817F2D66688700CEB9B5 /* Reviews.swift in Sources */,
 				78EE10D42D4BCD800003AB57 /* RecipeDetail.swift in Sources */,
 				78EE10D12D4BCC8D0003AB57 /* AddRecipe.swift in Sources */,
 				78EE10C22D4BAA0C0003AB57 /* CoreDataStack.swift in Sources */,
@@ -360,8 +378,10 @@
 				78EE10AF2D4BA7AE0003AB57 /* RecipesView.swift in Sources */,
 				78EE10CC2D4BAA2D0003AB57 /* obr3.swift in Sources */,
 				78EE10D62D4BD44D0003AB57 /* LibraryModel.swift in Sources */,
+				7883817D2D66688000CEB9B5 /* U1.swift in Sources */,
 				78EE10B52D4BA7C90003AB57 /* FermentationViewModel.swift in Sources */,
 				78EE10932D4BA1370003AB57 /* TH_App25App.swift in Sources */,
+				788381792D6666CD00CEB9B5 /* Sawqu.swift in Sources */,
 				78EE10C42D4BAA130003AB57 /* DateConvert.swift in Sources */,
 				78EE10CA2D4BAA280003AB57 /* obr2.swift in Sources */,
 				78EE10D92D4BD71F0003AB57 /* LibraryDetail.swift in Sources */,
@@ -512,7 +532,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App25";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -551,7 +571,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.1;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "IOI.TH-App25";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
